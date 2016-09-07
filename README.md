@@ -59,13 +59,8 @@ Note that you do not need to setup any server to host the webpage you are creati
 
 
 **Submission instructions:**
-* Create a private repository on bitbucket.
-* Add your team member as a collaborator.
-* Add the TA’s as collaborators
-  * er.kartik91@gmail.com
-  * cclinus@hotmail.com
-* For each assignment, create a directory call assignment<number> within the same repository, for ex: assignment1, assignment2, * etc.
-* Make sure you push your changes before midnight (11:59 PM) on the day when assignment is due - late submissions will not be accepted.
-* We will be downloading the code on the midnight before the due date, any changes to code after that point will not be considered for marking.
+* For each assignment, create a branch called assignment-<number>, for ex: assignment-1, assignment-2, * etc.
+* Make sure you push your changes to that branch before midnight (11:59 PM) on the date of the assignment deadline - late submissions will not be accepted.
+* We will be downloading the code on the midnight of the due date, any changes to code after that point will not be considered for marking.
 
  
