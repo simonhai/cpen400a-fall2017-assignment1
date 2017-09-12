@@ -63,4 +63,10 @@ Note that you do not need to setup any server to host the webpage you are creati
 * Make sure you push your changes to that branch before midnight (11:59 PM) on the date of the assignment deadline - late submissions will not be accepted.
 * We will be downloading the code on the midnight of the due date, any changes to code after that point will not be considered for marking.
 
- 
+
+**Deadlines:**
+
+These deadlines will be strictly enforced; we won't be looking at any commits done after this time-stamp.
+
+* L1A - Tuesday, September 26, 2017 23:59:59 PST
+* L1B - Thursday, September 28, 2017 23:59:59 PST
