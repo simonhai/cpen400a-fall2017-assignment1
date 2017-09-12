@@ -59,7 +59,8 @@ Note that you do not need to setup any server to host the webpage you are creati
 
 
 **Submission instructions:**
-* For each assignment, create a branch called assignment-<number>, for ex: assignment-1, assignment-2, * etc.
+* For each assignment, create a branch called *assignment-<number>* (case-sensitive, note the hyphen), for ex: assignment-1, assignment-2, * etc.
+    * The TA's use a shell script to automate the checkout process, so it is important that the branch name follows the format.
 * Make sure you push your changes to that branch before midnight (11:59 PM) on the date of the assignment deadline - late submissions will not be accepted.
 * We will be downloading the code on the midnight of the due date, any changes to code after that point will not be considered for marking.
 
