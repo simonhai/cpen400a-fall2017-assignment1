@@ -60,7 +60,8 @@ Note that you do not need to setup any server to host the webpage you are creati
 
 **Submission instructions:**
 * For each assignment, create a branch called *assignment-{number}* (case-sensitive, note the hyphen), for ex: assignment-1, assignment-2, * etc.
-    * The TA's use a shell script to automate the checkout process, so it is important that the branch name follows the format.
+    * The TA's use a shell script to automate the checkout process, so it is important that the branch name follows the format
+    * You can create as many branches as you want, but we will only mark the branch that follows this naming format
 * Make sure you push your changes to that branch before midnight (11:59 PM) on the date of the assignment deadline - late submissions will not be accepted.
 * We will be downloading the code on the midnight of the due date, any changes to code after that point will not be considered for marking.
 
@@ -69,5 +70,6 @@ Note that you do not need to setup any server to host the webpage you are creati
 
 These deadlines will be strictly enforced; we won't be looking at any commits done after this time-stamp.
 
-* L1A - Tuesday, September 26, 2017 23:59:59 PST
-* L1B - Thursday, September 28, 2017 23:59:59 PST
+* L1A & L1B - Tuesday, September 26, 2017 23:59:59 PST
+
+Feel free to create the branch *assignment-N* from the beginning and make incremental commits. Doing it this way you would still have partially completed work even if you accidentally forget to push the final commit on the day of the deadline. We will `checkout` the most recent commit time-stamped before the deadline. For this Assignment 1, the branch should be called "assignment-1"
