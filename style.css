@@ -1,0 +1,182 @@
+
+html,body{  
+    margin:0;  
+    padding:0;  
+    height:100%;    
+}  
+
+#Container{  
+    margin:auto;
+    width:1000px;  
+    min-height:100%;  
+    height:auto;  
+    position:relative;  
+    padding-bottom:50px;   <!-- depends on the height of footer-->
+}  
+
+#Header{  
+    margin:auto;
+    width:1000px;  
+    height:200px;  
+    background:#455461;  
+}  
+
+#Logo{
+    float:left;
+    margin:0px;
+    width:200px;
+    height:200px;
+    font-family:arial;
+    font-size:12px;
+    color:white;
+    line-height:200px;
+}
+
+#WelcomeBanner{
+    float:right;
+    margin:0px;
+    width:800px;
+    height:200px;
+    font-family:arial;
+    font-size:12px;
+    color:white;
+    line-height:200px;
+
+}
+
+#MainContent{  
+    margin:0px;
+    width:1000px;    
+    height:auto;  
+   
+}  
+
+#NavigationMenu{
+    float:left;
+    margin:15px 0 0 0;
+    width:200px;
+    font-family:arial;
+    font-size:18px;
+    display:inline;
+}
+
+ul.NaviMenu
+{
+    list-style-type:none;
+    margin:0px;
+    width:200px;
+    padding:0;
+    display:inline;
+}
+
+a.NaviMenu:link,a.NaviMenu:visited
+{
+    display:block;
+    font-weight:bold;
+    color:#002145;
+    background-color:#d7e0e7;
+    width:200px;
+    height:40px;
+    text-align:center;
+    padding:0px;
+    margin:10px 5px 0px 0px;
+    text-decoration:none;
+    line-height:40px;
+}
+
+a.NaviMenu:hover,a.NaviMenu:active
+{
+    background-color:#455461;
+    color:white;
+}
+
+#ProductList{
+    margin:0px;
+    padding:10px;
+    width:780px;    
+    height:auto;
+    float:right;
+}
+
+.Product{
+    padding:0px;
+    margin:0px;
+    width:260px;
+    height:260px;
+    color:#002145;
+    font-family:arial;
+    font-size:15px;
+    text-align:center;
+    background:white;
+    float:left;
+
+}
+
+a.Product:link,a.Product:visited
+{
+    display:block;
+    color:#002145;
+    background-color:white;
+    width:230px;
+    height:230px;
+    text-align:center;
+    font-size:15px;
+    padding:15px;
+    margin:0px;
+    text-decoration:none;
+}
+
+a.Product:hover,a.Product:active
+{
+    background-color:#d7e0e7;
+    color:#002145;
+}
+
+a.Product span{
+    display:none;
+}
+
+a.Product:hover span{
+    position:relative;
+    top:-60px;
+    left:5px;
+    display:block;
+    width:220px;
+    height:40px;
+    line-height:40px;
+    border:0;
+    background-color:rgba(215,224,231,0.5);   
+}
+
+.ClearForFooter{
+    clear:both;
+}
+
+#Footer{  
+    margin:auto;
+    width:1000px;  
+    height:50px;  
+    background:#002145;  
+    position:absolute;  
+    bottom:0px;      
+}
+
+.footer-center
+{
+    margin:auto;
+    width:30%;
+    color:white;
+    text-align:center;
+    font-family:arial;
+    font-size:12px;
+}
+
+a.footerlink
+{
+    color:white;
+    font-family:arial;
+    font-size:12px;
+
+}
+
+
